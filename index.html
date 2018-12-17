@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pizza delivery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <link rel="stylesheet" href="vendor/css/Grid.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.4.6/dist/css/ionicons.min.css" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <header id="header">
+         <nav id="nav-bar">
+            <div class="row">
+                <img id="header-img" src="resources/css/img/logo2.jpg" alt="pizza-logo" class="sticky-logo">
+                <img id="header-img" src="resources/css/img/logo2.jpg" alt="pizza-logo" class="logo">
+                <ul class="main-nav js--main-nav" id="navbar">
+                    <li class="nav-link"><a href="#">Home</a></li>
+                    <li class="nav-link"><a href="#pizzas">Pizzas</a></li>
+                    <li class="nav-link"><a href="#pricing">Pricing</a></li>
+                    <li class="nav-link"><a href="#contact">Contact</a></li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon"><i class="icon ion-md-menu"></i></a><!--Mobile navigation-->
+            </div>
+         </nav>
+
+         <div class="pizza-text-box">
+            <h1>Pizza to kill your soul</h1>
+            <h2>You have to taste it</h2>
+            <a class="btn btn-full" href="#pricing">I'm hungry</a>
+            <a class="btn btn-ghost" href="#pizzas">More</a>
+         </div>
+        
+        
+       
+    </header>
+
+    <section class="pizzas js--pizzas" id="pizzas">
+        <div class="row">
+            <h3 class="span1"><ion-icon name="pizza"></ion-icon></h3>
+            <h2 class="head2">Always fresh, don't miss it</h2>
+        </div>
+
+        <div class="row">
+            <div class="col span-1-of-3">
+                <figure class="meal-photo">
+                    <img src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=41d4e761f4b677daa6d016f4d9d6b743&auto=format&fit=crop&w=755&q=80" alt="pizza-photo">
+                </figure>
+                <h3>firewood oven pizza is the best</h3>
+                <p>Proin ut tincidunt ante, eget pulvinar ante. Sed nec erat et felis placerat facilisis id tristique diam. Aliquam ut
+                pellentesque lorem.</p>
+            </div>
+            <div class="col span-1-of-3">
+                <figure class="meal-photo">
+                    <img src="https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=86c8c1fd5e9e5b384696472a095c42ac&auto=format&fit=crop&w=750&q=80" alt="pizza-photo">
+                </figure>
+                <h3>special offer for the whole family</h3>
+                <p>Proin ut tincidunt ante, eget pulvinar ante. Sed nec erat et felis placerat facilisis id tristique diam. Aliquam ut
+                pellentesque lorem.</p>
+            </div>
+            <div class="col span-1-of-3">
+                <figure class="meal-photo">
+                    <img src="https://images.unsplash.com/photo-1523476467467-16477f18dba0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=45a9904acd8e1822d0307d177ec3ee8f&auto=format&fit=crop&w=500&q=60" alt="pizza-photo">
+                </figure>
+                <h3>online order to your home</h3>
+                <p>Proin ut tincidunt ante, eget pulvinar ante. Sed nec erat et felis placerat facilisis id tristique diam. Aliquam ut
+                pellentesque lorem.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="pricing">
+            <div class="row">
+                <h2>Order today</h2>
+            </div>
+            <!--Kraj prvog reda-->
+            
+            <div class="row">
+            
+                <div class="col span-1-of-3">
+                    <div class="plan-box js--wp-4">
+                        <!--Tri div-a cemo staviti u plan-box div koji smo napravili unutar kolone radi odr. razloga-->
+                        <div>
+                            <!--Prvi div-->
+                            <h3>pizza rukola</h3>
+                            <p class="plan-price">9$</p>
+                            
+                        </div>
+                        <div>
+                            <!--Drugi div-->
+                            <ul>
+                                <li>
+                                <i class="icon ion-md-checkmark"></i>mushrooms, peperoni, cheese
+                                </li>
+                                <li>
+                                    <i class="icon ion-md-checkmark"></i>ketchup, pelati, eggs, beef, ham
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <div>
+                            <!--Treci div-->
+                            <a href="#" class="btn btn-full">Order</a>
+                        </div>
+                    </div>
+            
+                </div>
+                <!--enf of first column-->
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <!--Prvi div-->
+                            <h3>pizza tuna</h3>
+                            <p class="plan-price">$8</p>
+                          
+                        </div>
+                        <div>
+                            <!--Drugi div-->
+                            <ul>
+                            <li>
+                                <i class="icon ion-md-checkmark"></i>mushrooms, peperoni, cheese
+                            </li>
+                            <li>
+                                <i class="icon ion-md-checkmark"></i>ketchup, pelati, eggs, beef, ham
+                            </li>
+                             
+                            </ul>
+                        </div>
+                        <div>
+                            <!--Treci div-->
+                            <a href="#" class="btn btn-full">Order</a>
+                        </div>
+                    </div>
+            
+                </div>
+                <!--enf of second column-->
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <!--Prvi div-->
+                            <h3>pizza margarita</h3>
+                            <p class="plan-price">$10</p>
+                            
+                            <!--Da napravimo i oznacimo da je p el. prazan, tj. kao da ima tekst-->
+                        </div>
+                        <div>
+                            <!--Drugi div-->
+                            <ul>
+                                <li><i class="icon ion-md-checkmark"></i>mushrooms, peperoni, cheese</li>
+                                 <li><i class="icon ion-md-checkmark"></i>ketchup, pelati, eggs, beef, ham</li>
+                                                               
+
+                            </ul>
+                        </div>
+                        <div>
+                            <!--Treci div-->
+                            <a href="#" class="btn btn-full">Order</a>
+                        </div>
+                    </div>
+            
+                </div><!-- enf of third column -->
+            
+            </div>
+            <!--Kraj drugog reda sa tri kolone-->
+    </section>
+
+    <section class="live">
+        <div class="row">
+            <div id="container">
+                <div>
+                    <h4>Homemade Pepperoni Pizza</h4>
+                    <iframe id="video" width="400" height="300" src="https://www.youtube.com/embed/sv3TXMSv6Lw?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div>
+                    <h4>The Best Homemade Pizza You'll Ever Eat</h4>
+                    <iframe width="400" height="300" src="https://www.youtube.com/embed/7p6rcKJNAUg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+                     
+        </div>
+       
+    </section>
+
+    <section id="contact">
+        <div class="row">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="row">
+            <form action="https://www.freecodecamp.com/email-submit" method="get" id="form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text"  id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="address">Address</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="text" name="address" placeholder="Enter your address" id="address">
+                </div>
+            </div>
+            <div class="row">
+               
+                <div class="col span-1-of-3">
+                    <label>&nbsp;</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input style="" class="btn btn-full" type="submit" id="submit" value="Send it!">
+                </div>
+            </div>
+           
+            </form>
+        </div>
+      
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <!--Kolona za navigaciju o nama i sl.-->
+                <ul class="footer-nav">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+    
+                </ul>
+            </div>
+            <!--Kraj o nama i sl.-->
+    
+            <div class="col span-1-of-2">
+                <!--Kolona za navigaciju ka socijalnim mrezama-->
+                <ul class="social-nav">
+                    <li><a href="#"><ion-icon name="logo-facebook" class="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-twitter" class="logo-twitter"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram" class="logo-instagram"></ion-icon></i></a></li>
+                    
+                </ul>
+            </div>
+            <!--Kraj socijalne mreze-->
+        </div>
+        <div class="row">
+            <!--drugi red za copyright-->
+            <p>
+                Copyright &copy; 2018 by Family Pizzeria. All rights reserved.
+            </p>
+        </div>
+    </footer>
+     
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="resources/js/main.js"></script>
+    <script src="https://unpkg.com/ionicons@4.4.6/dist/ionicons.js"></script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+</body>
+</html>           
