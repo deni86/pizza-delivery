@@ -520,6 +520,7 @@ footer p {
     .main-nav {
         float: left;/*da glavni meni bude lijevo od tastera*/
         margin: 35px 75px;
+        
     }
     
     .main-nav li {
@@ -558,4 +559,10 @@ footer p {
 }
 
 
-
+@media only screen and (max-width: 460px) {
+    .main-nav {
+        float: left;/*da glavni meni bude lijevo od tastera*/
+        margin: 10px 10px;
+        
+    }
+}
