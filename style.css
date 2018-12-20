@@ -558,11 +558,32 @@ footer p {
     }
 }
 
-
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 420px) {
     .main-nav {
         float: left;/*da glavni meni bude lijevo od tastera*/
         margin: 10px 10px;
         
+    }
+
+
+}
+
+
+@media only screen and (max-width: 380px) {
+    .main-nav {
+        float: left;/*da glavni meni bude lijevo od tastera*/
+        margin: 10px 10px;
+        
+    }
+}
+
+@media only screen and (max-width: 310px) {
+    .main-nav {
+        float: left;/*da glavni meni bude lijevo od tastera*/
+        margin: 10px 10px;
+        
+    }
+    body{
+        font-size: 14px;
     }
 }
